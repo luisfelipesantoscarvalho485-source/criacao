@@ -29,7 +29,7 @@ menuLinks.forEach(link => {
 // WHATSAPP
 // ===========================
 
-const numero = '5521983609954';
+const numero = '5521998711724';
 
 const mensagemZap = 'Olá! Gostaria de mais informações 😊';
 

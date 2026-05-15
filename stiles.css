@@ -120,8 +120,15 @@ header{
     margin-top:35vh;
 }
 
+
 .hero h2 span{
-    color:#d4a64f;
+    color: #d4a64f;
+    font-size: 45px;
+}
+
+.hero h2{
+
+    font-size: 45px;
 }
 
 .descrisao{
@@ -166,6 +173,12 @@ header{
 
 .btn:hover{
     transform:scale(1.03);
+}
+
+.instagram-btn{
+    color:#E1306C;
+    font-size:35px;
+    text-decoration:none;
 }
 
 .gold{
@@ -236,7 +249,7 @@ img{
 }
 
 .service-card{
-    background:#111;
+    background:#000000;
 
     padding:25px;
 
