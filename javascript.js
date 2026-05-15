@@ -62,7 +62,7 @@ agendarBtn.addEventListener('click', (e) => {
 
     if(!data) return;
 
-    const hora = prompt('Digite o horário:\nEx: 14:30');
+    const hora = prompt('Digite o horário:\nHorário  Apenas Das 8:00 ás 18:00hrs');
 
     if(!hora) return;
 
