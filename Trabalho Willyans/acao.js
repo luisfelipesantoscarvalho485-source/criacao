@@ -99,6 +99,7 @@ function enviarWhatsApp() {
 
   if (data) {
     mensagem += "Data: " + data + "\n";
+    
   }
 
   mensagem += "\n";
