@@ -67,6 +67,13 @@ img{
 }
 
 
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    accent-color: green;
+    cursor: pointer;
+
+
 
 
 
@@ -88,6 +95,12 @@ img{
     grid-template-columns: repeat(2, 1fr);
     
     }
+
+    input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    accent-color: green;
+    cursor: pointer;
     
 }
 
