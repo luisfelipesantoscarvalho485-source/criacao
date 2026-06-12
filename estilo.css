@@ -72,6 +72,7 @@ input[type="checkbox"] {
     height: 25px;
     accent-color: green;
     cursor: pointer;
+    gap: 5px;
 
 
 
@@ -82,7 +83,7 @@ input[type="checkbox"] {
 
 
     header{
-        width: 768px;
+        width: auto;
     }
 
     .card{
