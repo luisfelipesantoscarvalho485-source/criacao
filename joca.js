@@ -8,12 +8,13 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "SUA_API_KEY",
-  authDomain: "SEU_PROJETO.firebaseapp.com",
-  projectId: "SEU_PROJECT_ID",
-  storageBucket: "SEU_PROJETO.appspot.com",
-  messagingSenderId: "SEU_SENDER_ID",
-  appId: "SEU_APP_ID"
+  apiKey: "AIzaSyBLxtClD9OM5BvqdjDaKfJZ1mHbI6m6KO0",
+  authDomain: "casamentojoaquim-b7615.firebaseapp.com",
+  projectId: "casamentojoaquim-b7615",
+  storageBucket: "casamentojoaquim-b7615.firebasestorage.app",
+  messagingSenderId: "563952417106",
+  appId: "1:563952417106:web:d1b34d3a02fadd7fb4228b",
+  measurementId: "G-ZPW5GSQP7X"
 };
 
 const app = initializeApp(firebaseConfig);
