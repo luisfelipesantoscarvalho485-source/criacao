@@ -84,50 +84,13 @@ input[type="checkbox"]{
 }
 
 
-.check-container{
-    display: inline-flex;
-    align-items: center;
+.check-compra {
+    width: 28px;
+    height: 28px;
+    accent-color: #00c853;
     cursor: pointer;
-    margin-top: 10px;
 }
 
-.check-compra{
-    display: none;
-}
-
-.check-custom{
-    width: 30px;
-    height: 30px;
-    border: 2px solid #fff;
-    border-radius: 6px;
-    background: #fff;
-    position: relative;
-    transition: .3s;
-}
-
-.check-compra:checked + .check-custom{
-    background: #00c853;
-    border-color: #00c853;
-}
-
-.check-compra:checked + .check-custom::after{
-    content: "✓";
-    position: absolute;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.status{
-    display: block;
-    margin-top: 8px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #00ff4c;
-}
 
 /* CELULAR */
 @media (max-width: 768px){
