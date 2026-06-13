@@ -74,6 +74,7 @@ img{
     object-fit: contain;
     display: block;
     margin: 0 auto;
+    
 }
 
 input[type="checkbox"]{
