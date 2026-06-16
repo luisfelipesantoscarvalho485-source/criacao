@@ -1,0 +1,1 @@
+const moedas = document.querySelectorAll('.moeda');
