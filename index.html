@@ -1,12 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="estilo.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="estilo.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Conversor De Moedas</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <img src="./assets/logo.png" alt="logo" class="logo" />
+
+    <main>
+      <label>
+        Converter <b>De</b>
+        <select>
+          <option value="real">R$ Real</option>
+        </select>
+      </label>
+
+      <label>
+        Converter <b>Para</b>
+        <select class="selecionar">
+          <option value="dolar">$ Dolar</option>
+          <option value="euro">€ Euro</option>
+         <option value="libra">£ Libra</option>
+          <option value="bitcoin">₿ Bitcoin</option>
+        </select>
+      </label>
+
+      <label>
+        Valor
+        <input type="number" placeholder="R$ 150.000" class="convertendo" />
+      </label>
+
+      <button class="btn">Converter</button>
+
+      <section class="resultado">
+        <div class="caixa-moeda">
+          <img src="./assets/real.png" alt="real" />
+          <p class="nome">Real</p>
+          <p class="valor-moeda-real">R$ 0,00</p>
+        </div>
+
+        <img src="assets/seta.png" alt="Seta" />
+
+        <div class="caixa-moeda">
+          <img src="./assets/usa.png" alt="dolar" class="moeda-imagem"/>
+          <p class="nome" id="doleta">Dólar Americano</p>
+          <p class="valor-Dolar">$ 0.00</p>
+        </div>
+
+         
+
+       
+      </section>
+    </main>
+  </body>
+  <script src="acao.js"></script>
 </html>
